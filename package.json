@@ -1,0 +1,27 @@
+{
+  "name": "template_figma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass sass/main.scss css/main.css --watch --output-style expanded",
+    "dev": "live-server",
+    "start": "npm-run-all --parallel dev watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyOrganizationProjectCode/template_figma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyOrganizationProjectCode/template_figma/issues"
+  },
+  "homepage": "https://github.com/MyOrganizationProjectCode/template_figma#readme",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
